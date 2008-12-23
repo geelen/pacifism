@@ -59,10 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pacifism.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Pacifism.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pacifism.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.26688632">
+            <state line="19" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="Arcs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Arcs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="20" selection-start="4339" selection-end="4339" vertical-scroll-proportion="0.0">
+            <state line="170" column="0" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,25 @@
       <file leaf-file-name="MyPanel.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyPanel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+            <state line="11" column="18" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Protagonist.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Protagonist.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyActor.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.29654035">
               <folding />
             </state>
           </provider>
@@ -301,8 +319,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Pacifism" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Arcs" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Arcs" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Pacifism" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -347,15 +365,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="22" width="1035" height="1028" extended-state="0" />
-    <editor active="false" />
+    <frame x="57" y="22" width="1035" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2502533" sideWeight="0.6635319" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2502533" sideWeight="0.6635319" order="0" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
@@ -365,14 +383,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.6635319" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924012" sideWeight="0.6635319" order="2" side_tool="false" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -436,23 +454,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyPanel.scala">
+    <entry file="file://$PROJECT_DIR$/src/Arcs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+        <state line="170" column="0" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arcs.java">
+    <entry file="jar:///opt/local/share/scala/lib/scala-library.jar!/scala/actors/Actor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="20" selection-start="4339" selection-end="4339" vertical-scroll-proportion="0.0">
+        <state line="101" column="6" selection-start="8428" selection-end="8428" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyPanel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Protagonist.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pacifism.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.26688632">
+        <state line="19" column="12" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.29654035">
           <folding />
         </state>
       </provider>
