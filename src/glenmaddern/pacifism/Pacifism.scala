@@ -16,7 +16,7 @@ object Pacifism {
     val a = new MyActor(p)
     f.add(p)
     f.pack()
-    f.setSize(new Dimension(400,400))
+    f.setSize(new Dimension(Constants.height,Constants.width))
     f.show()
     a.start()
   }

@@ -7,7 +7,7 @@ class MyActor(p: Panel) extends Actor {
     loop {
       p.repaint()
       //todo: proper futuring pls
-      Thread.sleep(200)
+      Thread.sleep(10)
     }
   }
 }
