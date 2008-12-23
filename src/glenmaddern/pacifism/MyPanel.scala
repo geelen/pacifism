@@ -9,7 +9,7 @@ class MyPanel extends Panel {
   override def paint(g: Graphics) {
     println("painting")
     g.setColor(Color.BLACK)
-
+    g.drawRect(0,0, Constants.height, Constants.width)
     g.setColor(Color.YELLOW)
     protagonist = Protagonist.draw(protagonist)(g)
   }
