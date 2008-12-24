@@ -1,3 +1,5 @@
+package glenmaddern.pacifism
+
 import java.awt.Panel
 import scala.actors.Actor
 import scala.actors.Actor._
