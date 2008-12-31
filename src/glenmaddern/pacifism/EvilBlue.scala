@@ -3,11 +3,11 @@ package glenmaddern.pacifism
 import java.awt.Graphics
 import java.awt.Color
 
-case class EvilBlue(pos: (Int,Int)) {
+case class EvilBlue(pos: (Double,Double)) {
   def draw(): Graphics => Unit = {
     (g: Graphics) => {
       g.setColor(Color.BLUE)
-      g.fillOval(pos._1, pos._2, 10, 10)
+      g.drawOval(pos._1.toInt, pos._2.toInt, 10, 10)
     }
   }
 }
@@ -17,8 +17,9 @@ object EvilBlue {
 
   def animate(pro: Protagonist) : EvilBlue => EvilBlue = {
     (prev: EvilBlue) => {
-      val newX = prev.pos._1 + (if (pro.pos._1 > prev.pos._1) 1 else if (pro.pos._1 == prev.pos._1) 0 else -1)
-      val newY = prev.pos._2 + (if (pro.pos._2 > prev.pos._2) 1 else if (pro.pos._2 == prev.pos._2) 0 else -1)
+      val angle = Math.atan2(pro.pos._1 - prev.pos._1, pro.pos._2 - prev.pos._2)
+      val newX = prev.pos._1 + Math.sin(angle)
+      val newY = prev.pos._2 + Math.cos(angle)
       new EvilBlue((newX, newY))
     }
   }

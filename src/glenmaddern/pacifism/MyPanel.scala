@@ -15,7 +15,8 @@ class MyPanel(controller: Controller) extends Panel {
   }
 
   override def paint(g: Graphics) {
-    protagonist = Protagonist.draw(protagonist, controller)(g)
+    protagonist = Protagonist.animate(controller)(protagonist)
+    protagonist.draw()(g)
     evilBlues = evilBlues.map(EvilBlue.animate(protagonist))
     evilBlues.map((b: EvilBlue) => {b.draw()(g)})
   }
