@@ -1,8 +1,9 @@
 package glenmaddern.pacifism
 
 object Constants {
-  def width = 800
-  def height = 600
+  def bounds = (800,600)
+  def width = bounds._1
+  def height = bounds._2
 
   def max(x: Int, y: Int): Int = if (x < y) y else x
   def min(x: Int, y: Int): Int = if (x > y) y else x

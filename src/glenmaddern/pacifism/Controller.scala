@@ -15,7 +15,7 @@ class Controller extends KeyListener {
     case KeyEvent.VK_RIGHT => accelerationX = unitBound(accelerationX + 1)
     case KeyEvent.VK_DOWN => accelerationY = unitBound(accelerationY + 1)
     case KeyEvent.VK_UP => accelerationY = unitBound(accelerationY - 1)
-    case _ => println(keyEvent)
+    case _ => //println(keyEvent)
   }
 
   def keyReleased(keyEvent: KeyEvent): Unit = keyEvent.getKeyCode() match {
@@ -23,7 +23,7 @@ class Controller extends KeyListener {
     case KeyEvent.VK_RIGHT => accelerationX = unitBound(accelerationX - 1)
     case KeyEvent.VK_DOWN => accelerationY = unitBound(accelerationY - 1)
     case KeyEvent.VK_UP => accelerationY = unitBound(accelerationY + 1)
-    case _ => println(keyEvent)
+    case _ => //println(keyEvent)
   }
 
   def keyTyped(keyEvent: KeyEvent) {}

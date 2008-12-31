@@ -6,7 +6,8 @@ import java.awt.Graphics
 import java.awt.Panel
 
 class MyPanel(controller: Controller) extends Panel {
-  var protagonist = new Protagonist((190,190))
+  var protagonist = new Protagonist((Constants.width / 2 - 10, Constants.height / 2 - 10))
+  var evilBlues = (1 to 10).map(EvilBlue.randomPlacedNew(Constants.bounds)).toList
 
   def init() {
     addKeyListener(controller)
@@ -14,10 +15,8 @@ class MyPanel(controller: Controller) extends Panel {
   }
 
   override def paint(g: Graphics) {
-//    println("painting")
-//    g.setColor(Color.BLACK)
-//    g.drawRect(0,0, Constants.height, Constants.width)
-    g.setColor(Color.YELLOW)
     protagonist = Protagonist.draw(protagonist, controller)(g)
+    evilBlues = evilBlues.map(EvilBlue.animate(protagonist))
+    evilBlues.map((b: EvilBlue) => {b.draw()(g)})
   }
 }
