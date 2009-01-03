@@ -3,14 +3,7 @@ package glenmaddern.pacifism
 import java.awt.Graphics
 import java.awt.Color
 
-case class EvilBlue(pos: (Double,Double)) {
-  def draw(): Graphics => Unit = {
-    (g: Graphics) => {
-      g.setColor(Color.BLUE)
-      g.drawOval(pos._1.toInt, pos._2.toInt, 10, 10)
-    }
-  }
-}
+case class EvilBlue(pos: (Double,Double))
 
 object EvilBlue {
   val rnd = new Random()
@@ -27,6 +20,13 @@ object EvilBlue {
   def randomPlacedNew(bounds: (Int,Int)) : Int => EvilBlue = {
     (ignored: Int) => {
       new EvilBlue((rnd.nextInt(bounds._1), rnd.nextInt(bounds._2)))
+    }
+  }
+
+  def draw(g: Graphics): EvilBlue => Unit = {
+    (evilBlue: EvilBlue) => {
+      g.setColor(Color.BLUE)
+      g.drawOval(evilBlue.pos._1.toInt, evilBlue.pos._2.toInt, 10, 10)
     }
   }
 }

@@ -18,6 +18,6 @@ class MyPanel(controller: Controller) extends Panel {
     protagonist = Protagonist.animate(controller)(protagonist)
     protagonist.draw()(g)
     evilBlues = evilBlues.map(EvilBlue.animate(protagonist))
-    evilBlues.map((b: EvilBlue) => {b.draw()(g)})
+    evilBlues.map(EvilBlue.draw(g))
   }
 }
