@@ -11,4 +11,7 @@ object Constants {
   def unitBound(v: Int) = {
     max(min(v, 1), -1)
   }
+
+  def evilBlueSize = 30.0
+  def protagonistSize = 10.0
 }
